@@ -1,0 +1,188 @@
+*{padding:0;margin:0}
+html{font-size:16px}
+body{font-family:'Quicksand',sans-serif;background-color:#fff;font-weight:400;color:#000;font-size:1rem;}
+html, body{height:auto;min-height:100%;}
+.offwhite-bg{background-color:#f6f7fb;}
+a:hover{text-decoration:none}
+/* HEADER */
+.header{background-color:#fff;padding:15px 0;border-bottom:1px solid #dfe6ee; position: fixed; width: 100%; z-index: 9; top: 0;}
+.header .icon-bars{ width: 35px; height: 4px; background-color: #000; margin: 5px 0;}
+.header .logo{ display: inline-block;}
+.header .toggle-icon{ display: inline-block; margin-left: 15px; vertical-align: middle; cursor: pointer; display: none;}
+.header .settings .image, .header .settings .user-name, .header .settings .user-dropdown{ display: inline-block; vertical-align: middle;}
+.header .settings .user-name p{margin-bottom:0}
+.header .settings .user-name{margin:0 50px 0 10px}
+.header .settings .user-dropdown button{background:none;border:none!important}
+.header .settings .user-dropdown .dropdown-toggle:after{content:none}
+.header .settings .user-dropdown button:focus{border:none}
+.header .settings .user-dropdown button:active{border:none!important;background:none}
+.header .settings .user-dropdown button i{color: #000;font-size:1.125rem}
+.header .settings .image, .header .settings .user-name {font-size:1.125rem;line-height:20px}
+.header .settings .image, .header .settings .user-name p span{font-size:1rem;color:#5ab83e;}
+
+/* MAIN */
+.main{padding-top:72px;position: relative;overflow-x: hidden;overflow-y:auto;height:auto;min-height:100%;}
+.user-welcome-note{padding:46px 0 36px;text-align:center;font-weight:700;font-size:1.125rem;margin-bottom:0;}
+.signup-content{max-width:1100px;background-color:#fff;border-radius:10px;margin:0 auto 80px;padding:50px 15px 163px;box-shadow:0px 0px 6px 0px rgba(223,230,238,0.45);}
+.form-width{max-width:435px;margin:0 auto}
+
+.signup-content .heading{font-size:2.25rem;margin-bottom:17px;font-weight:400}
+.signup-content .sub-heading{color:#aaa;font-size:1.25rem;margin-bottom:0;line-height:24px}
+
+.custom-btn{font-size:1.375rem;font-weight:700;padding:12px 50px;border-radius:6px!important;word-break:break-word;white-space:pre-wrap}
+.btn-success{background-color:#59b83d;border-color:#59b83d}
+.btn-success:hover{background-color:#42a225;border-color:#42a225}
+.btn-primary{background-color:#66a1e2;border-color:#66a1e2}
+.btn-primary:hover{background-color:#508ed2;border-color:#508ed2}
+
+.sign-up-form{margin-top:35px}
+.sign-up-form .m-b-20{margin-bottom:16px}
+.sign-up-form .m-b-30{margin-bottom:29px}
+.sign-up-form label{margin-bottom:5px}
+.sign-up-form .form-control{height:55px;border:1px solid #eee;color:#000!important;font-weight:400}
+.sign-up-form .form-control:focus{ box-shadow: 0 0 0 0.1rem rgba(0,123,255,.25);}
+.sign-up-form .buttons-div{margin-top:93px}
+.sign-up-form .price-button,.sign-up-form .trial-button{display:inline-block}
+.sign-up-form .price-button a{color:#fff;text-transform:uppercase;font-size:1.375rem;font-weight:700;padding:15px 50px;border-radius:6px;background-color:#c52729;margin-right:10px;transition:.4s}
+.sign-up-form .price-button a:hover{background-color:#ff5255;transition:.4s}
+
+.sign-up-form .custom-control{margin-top:40px}
+.sign-up-form .custom-control-label{position:absolute;left:45px;color:#000;top:3px;}
+.sign-up-form .custom-control a{color:#1a73e8}
+.sign-up-form .custom-control-label::before{width:32px;height:32px;left:-45px;top:-3px; border-color: #eee;}
+.sign-up-form .custom-control-label::after{top:7px;background:no-repeat 100%;left:-38px}
+.sign-up-form .custom-control-input:checked~.custom-control-label::before{background-color:#fff}
+.sign-up-form .custom-checkbox .custom-control-input:checked~.custom-control-label::after{background-image:url(../images/green-tick.png);width:17px;height:13px}
+.sign-up-form .fa-info-circle{color:#c52729}
+.sign-up-form .validation_errors{ width: 100%; color: red !important;}
+
+.tooltip-inner{background-color:#f4f5f8;color:#000;border:1px solid #c52729; max-width: 1000px; text-align: left; padding: 10px 40px 10px 20px; box-shadow: 0px 0px 20px #999;}
+.tooltip.bs-tooltip-right .arrow:before{border-right-color:#c52729!important}
+.tooltip.bs-tooltip-left .arrow:before{border-right-color:#c52729!important}
+.tooltip.bs-tooltip-bottom .arrow:before{border-right-color:#c52729!important}
+.tooltip.bs-tooltip-top .arrow:before{border-right-color:#c52729!important}
+
+.login-form .login-checkbox{margin-top:0!important}
+.login-form .forgot-pass{text-align:right}
+.login-form .forgot-pass a{color:#c52729;font-size:1rem;text-decoration:underline;font-weight:500}
+.login-form .login-btn{color:#fff;text-transform:uppercase;font-size:1.375rem;font-weight:700;padding:10px 60px;border-radius:6px;background-color:#5ab83e!important;margin-right:10px;transition:.4s;margin-right:40px!important}
+.login-form .login-btn:hover{background-color:#7fe062!important;transition:.4s}
+.login-form .signup-btn{color:#fff;text-transform:uppercase;font-size:1.375rem;font-weight:700;padding:10px 60px;border-radius:6px;background-color:#67a1e2!important;margin-right:10px;transition:.4s}
+.login-form .signup-btn:hover{background-color:#8bb9ec!important;transition:.4s}
+
+/*Left sidebar */
+.left-sidebar{position:fixed;width:310px;height:100%;top:0px;z-index:8;padding-top:72px;background-color: #f6f7fb;overflow-x:hidden;overflow-y:auto;box-shadow:0px 0px 6px 0px rgba(223,230,238,0.45)}
+.left-sidebar .scroll-sidebar{ height:calc(100% - 20px)}
+.left-sidebar .sidebar-nav{padding:15px 0 0 0px}
+.left-sidebar ul>li{margin-bottom:1px;font-weight:500}
+.left-sidebar ul li a{padding:20px 15px 20px 40px;display:block;color:#000;text-transform:uppercase;border-left:4px solid transparent}
+.left-sidebar ul li a i{margin-right:20px;font-size:20px}
+.left-sidebar ul li a:hover,.left-sidebar ul li.active a{background-color: #edeef1;border-color:#c52729;color:#c52729;}
+.page-wrapper{padding:13px 35px 50px}
+.page-wrapper .section-subheading{font-size:0.9375rem;padding-top:30px}
+.f-bold{font-weight:700}
+.search-box{max-width:255px;float:left;margin-right:30px;position:relative}
+.add-user-btn{width:174px;float:right;padding:.575rem .75rem}
+.text-danger{color:#c52729!important}
+.text-black{color:#000!important}
+.text-primary{color:#66a1e2!important}
+.margin-bottom40{margin-bottom:40px}
+.margin-bottom55{margin-bottom:55px}
+.white-box{box-shadow:0px 0px 6px 0px rgba(223,230,238,0.45);border-radius:10px;background-color:#fff;padding:37px 30px}
+label{margin-bottom:5px}
+.section-title{font-weight:700;font-size:1.125rem}
+.inputbox{height:calc(1.5rem + 1.25rem + 12px);font-size:1.125rem;padding:.375rem 1.25rem;border-color:#eee;}
+.inputbox::-webkit-input-placeholder{color:#aaa;opacity:1}
+.inputbox::-moz-placeholder{color:#aaa;opacity:1}
+.inputbox:-ms-input-placeholder{color:#aaa;opacity:1}
+.inputbox:-moz-placeholder{color:#aaa;opacity:1}
+.space-RTL28{padding-left:28px;padding-right:28px;padding-top:54px}
+.search-box .inputbox{height:calc(1.5rem + .75rem + 8px);padding:.375rem 1.813rem;border-color:#dfe6ee;border-radius:50px;background-color:transparent;font-size:1rem}
+.custom-table tr th{background-color:#f6f7fb;}
+.table tr td.action{font-size:1.375rem;text-align:center;}
+.table tr td.action a{margin:0 3px}
+.section-subheading .breadcrumb{background-color:transparent;padding:0;margin-bottom:0;font-style:italic;font-weight:500}
+.section-subheading .breadcrumb a{color:#000;}
+.section-subheading .breadcrumb a:hover{color:#c52729;}
+.breadcrumb-item+.breadcrumb-item::before{color:#000;}
+.title{color:#aaa;font-size:1.375rem;font-weight:700;margin-bottom:35px;}
+.profile-pic-upload{position:relative;height:85px;}
+.upload-box{width:85px;height:85px;border-radius:100%;position:absolute;left:0;top:0;background-color:#312b2b;line-height:85px;text-align:center;overflow:hidden;}
+.upload-box.user-image{line-height:100px;}
+.upload-box i{font-size:1.25rem;color:#fff;}
+.upload-box.user-image i{font-size:2.625rem}
+.upload-box input[type="file"]{position:absolute;height:85px;width:85px;left:0;top:0;right:0;bottom:0;opacity:0}
+.profile-pic-upload span{padding-left:105px;padding-top:28px;display:block}
+.spaceTop17{padding-top:17px}
+.blank-space100{height:100px;}
+.form-view-text{font-size:1.25rem;font-weight:700;padding-bottom:27px;}
+.edit-text{color:#000;display:inline-block;padding-top:30px;font-size:0.9375rem;}
+.edit-text:hover{color:#c52729;}
+.pagination{margin-top:20px;}
+.round-whitebox{border-radius:2px;border:1px solid #dfe6ee;padding:27px 15px;background-color:#fff;text-align:center;}
+.round-whitebox figure{min-height:98px;margin-bottom:14px;width:100%;display:table}
+.round-whitebox figure div{display:table-cell;vertical-align:middle;}
+.round-whitebox figure img{display:block;width:auto;margin:0 auto;}
+.round-whitebox h2{font-size:1rem;font-weight:700;text-transform:uppercase;margin-bottom:11}
+.round-whitebox .total-count{font-size:2.25rem;margin-bottom:0;}
+.margin-bottom30{margin-bottom:30px;}
+
+
+/*custom radio */
+.sign-up-form .custom-radio .custom-control-input:checked~.custom-control-label::after{ background-image: url(../images/red-circle.png); width: 17px; height: 17px; }
+.sign-up-form .custom-radio .custom-control-label::after{ top: .55rem;}
+.sign-up-form .custom-radio{ padding-left: 42px; margin-top: 12px;}
+
+@media (min-width: 1024px){
+  .mini-sidebar .logo{margin-left:30px}
+}
+@media (min-width: 1024px){
+  .page-wrapper{margin-left:310px}
+}
+@media (min-width: 1200px){
+  .container { max-width:1290px; }
+}
+@media only screen and (max-width: 1200px){
+  .container { max-width: 1100px; }
+  .login-page-wrapper{padding:0 15px}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+  .hide-menu{ display: none; }
+  .mini-sidebar .scroll-sidebar { padding-bottom: 0px; position: absolute; width: 70px;}
+  .mini-sidebar .left-sidebar { width: 70px;}
+  .mini-sidebar .page-wrapper { margin-left: 70px}
+  .left-sidebar .sidebar-nav ul li a{ padding: 20px 0px 6px 25px;}
+}
+@media only screen and (max-width: 991px) {
+  .container { max-width: 900px;}
+  .signup-content{padding:60px 15px}  
+  .tablet-margin-top50{margin-top:50px}
+}
+@media only screen and (max-width: 767px) {
+  .container{ max-width: 700px;}
+  .signup-content{padding:30px 15px}
+  .sign-up-form .trial-button{margin-top:30px}
+  .signup-content .sub-heading p{font-size:1.125rem}
+  .sign-up-form,.sign-up-form .buttons-div{margin-top:40px}
+  .sign-up-form .price-button,.sign-up-form .trial-button{width:100%}
+  .sign-up-form .price-button a,
+  .sign-up-form .trial-button a,
+  .sign-up-form .price-button,
+  .sign-up-form .trial-button{display:inline-block;width:100%}
+  .mini-sidebar .left-sidebar{ left: -310px;}
+  .page-wrapper{margin-top: 70px;padding:13px 0 50px}
+  .header .toggle-icon{ display: inline-block;}
+  .mobile-margin-top50{margin-top:50px}
+}
+@media only screen and (max-width: 575px) {
+  .sign-up-form .price-button,.sign-up-form .trial-button{width:100%}
+  .sign-up-form .price-button a,.sign-up-form .trial-button a{font-size:1.125rem;padding:10px 45px}
+  .login-form .login-btn{margin-right:0!important}
+  .login-form .forgot-pass{text-align:left;margin-top:20px}
+}
+@media only screen and (max-width: 480px) {
+  .blank-space100{height:1rem;}
+  .mobile-full-btn .btn{display: block;width:100%}
+  .mobile-full-btn .btn + .btn {margin-top:1rem}
+  .hide-on-mobile{display:none;}
+}

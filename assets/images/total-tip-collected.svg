@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="94" viewBox="0 0 91 94">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #66a1e2;
+        stroke-width: 4px;
+      }
+
+      .cls-1, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        font-size: 24px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #66a1e2;
+        font-family: Quicksand;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        font-size: 18px;
+      }
+    </style>
+  </defs>
+  <path id="Rounded_Rectangle_663" data-name="Rounded Rectangle 663" class="cls-1" d="M2919,1481v-3a2.006,2.006,0,0,1,2-2h26m30,0h14a2.006,2.006,0,0,1,2,2v38a2.006,2.006,0,0,1-2,2h-5" transform="translate(-2904 -1437)"/>
+  <g>
+    <rect id="Rounded_Rectangle_663-2" data-name="Rounded Rectangle 663" class="cls-2" x="4" y="48" width="74" height="42" rx="2" ry="2"/>
+    <path class="cls-3" d="M2923,1485a14,14,0,0,1-14,14" transform="translate(-2904 -1437)"/>
+    <path class="cls-3" d="M2970,1483a14,14,0,0,0,14,14" transform="translate(-2904 -1437)"/>
+    <path class="cls-3" d="M2920,1529a14,14,0,0,0-14-14" transform="translate(-2904 -1437)"/>
+    <path class="cls-3" d="M2967,1526a14,14,0,0,1,14-14" transform="translate(-2904 -1437)"/>
+    <text id="_" data-name="$" class="cls-4" x="34.211" y="76.825">$</text>
+  </g>
+  <g>
+    <circle class="cls-2" cx="36" cy="18" r="16"/>
+    <text id="_2" data-name="$" class="cls-5" x="30.668" y="24.348">$</text>
+  </g>
+  <g>
+    <circle class="cls-2" cx="58" cy="27" r="16"/>
+    <text id="_3" data-name="$" class="cls-5" x="52.667" y="33.349">$</text>
+  </g>
+</svg>
